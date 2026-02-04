@@ -2,8 +2,9 @@ import React from "react";
 import "./main.css";
 export default function Main() {
   return (
-    <main className="main-section">
-      <div className="info-top">
+    <main className="main">
+    <div className="main-section">
+        <div className="info-top">
         <h1>Advanced Statistics</h1>
         <p>
           Track how your links are performing across the web <br />
@@ -48,6 +49,7 @@ export default function Main() {
           </div>
         </div>
       </div>
+    </div>
     </main>
   );
 }
